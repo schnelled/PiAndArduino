@@ -27,5 +27,5 @@
 <h3>Project Categories</h3>
 <p>List of project categories</p>
 <ul>
-  <li>Serial Communication</li>
+  <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication">Serial Communication</a></li>
 </ul>
