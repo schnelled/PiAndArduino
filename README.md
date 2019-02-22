@@ -1,6 +1,6 @@
 <h1>PiAndArduino</h1>
 <p>Repository to save small projects that could contribute to a larger projects <strong>(Viking Robotic Society Project).</strong></p>
-<p><em>Note:</em> This repository is for storing experiments for both the Raspberry Pi</p>
+<p><em>Note:</em> This repository is for storing experiments for both the Raspberry Pi & Arduino platforms</p>
 
 <h3>Devices Used</h3>
 <p>Below is a list of devices used during the project</p>
