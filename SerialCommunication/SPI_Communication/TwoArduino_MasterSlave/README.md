@@ -1,5 +1,8 @@
 <h1>Two Arduino: Master slave</h1>
-<p>This folder shows how to communicate between two Arduinos. One Arduino is the master and the other is the slave.</p>
+<p>This folder shows how to communicate between two Arduinos. SPI protocol is used for communication between two Arduino. One Arduino is the master and the other is the slave.</p>
+
+<h3>Method of showing SPI Connection</h3>
+<p>Two LEDs and two push buttons will be connected to the Arduinos. To demonstrate SPI communication, we will control the master side LED by push button at slave side(MISO). We will control the slave side LED by push button at master side(MOSI).</p>
 
 <h3>Needed Devices</h3>
 <p>Below is a list of required hardware & equipment</p>
