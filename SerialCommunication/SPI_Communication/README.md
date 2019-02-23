@@ -3,11 +3,11 @@
 
 <h3>Project Lists & Summary</h3>
 <ul>
-  <li><a href="">Raspberry Pi SPI</a></li>
+  <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication/SPI_Communication/RaspberrySPI">Raspberry Pi SPI</a></li>
     <p>This project shows the basic usage of a SPI connection using the Pi</p>
-  <li><a href="">Arduino SPI</a></li>
+  <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication/SPI_Communication/ArduinoSPI">Arduino SPI</a></li>
     <p>This project shows the basic usage of a SPI connection using the Arduino</p>
-  <li><a href="">Two Arduino: Master & Slave</a></li>
+  <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication/SPI_Communication/TwoArduino_MasterSlave">Two Arduino: Master & Slave</a></li>
     <p>This project shows how to communicate between two Arduinos. One Arduino is master and the other is slave.</p>
 </ul>
 
