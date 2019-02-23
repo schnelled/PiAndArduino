@@ -17,6 +17,9 @@
 <p>Below is a list of required software</p>
 <ul>
   <li><a href="https://www.arduino.cc/en/main/software">Arduino IDE</a></li>
+  <ul>
+    <li><a href="https://www.arduino.cc/en/Reference/SPI">Arduino SPI library</a></li>
+  </ul>
 </ul>
 
 <h3>Arduino SPI Information</h3>
