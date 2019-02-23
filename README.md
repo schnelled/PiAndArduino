@@ -28,4 +28,13 @@
 <p>List of project categories</p>
 <ul>
   <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication">Serial Communication</a></li>
+    <p>This folder contains basic projects that relate to serial connections</p>
+    <ul>
+      <li><a href="">PiNanpy</a></li>
+      <li><a href="">SPI Communication</a></li>
+        <ul>
+          <li><a href="">Raspberry Pi SPI</a></li>
+          <li><a href="">Arduino SPI</a></li>
+        </ul>
+    </ul>
 </ul>
