@@ -10,8 +10,14 @@
   <li>Jumper Wires</li>
 </ul>
 
+<h3>Needed Software</h3>
+<p>Below is a list of required software</p>
+<ul>
+  <li><a href="https://www.arduino.cc/en/main/software">Arduino IDE</a></li>
+</ul>
+
 <h3>Arduino SPI Information</h3>
-<h5>Connections/Pins</h5>
+<p><strong>Connections/Pins</strong></p>
 <p>Arduino pins 11-13 are used by the SPI library</p>
 <ul>
   <li>SKC -> Pin13</li>
