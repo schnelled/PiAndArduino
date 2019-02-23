@@ -75,5 +75,7 @@ void loop(void)
    digitalWrite(LED, LOW);
    Serial.println("Master LED OFF"); 
   }
-  delay(1000);
+
+  //Delay of 0.1 seconds
+  delay(100);
 }

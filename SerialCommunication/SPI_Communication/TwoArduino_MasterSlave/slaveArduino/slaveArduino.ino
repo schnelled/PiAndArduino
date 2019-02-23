@@ -88,7 +88,8 @@ void loop(void)
   slaveSend = x;
   // Send the x value to the master via SPDR
   SPDR = slaveSend;
-  // Delay of one second
-  delay(1000);
+  
+  // Delay of 0.1 seconds
+  delay(100);
  }
 }
