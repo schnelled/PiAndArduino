@@ -30,11 +30,12 @@
   <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication">Serial Communication</a></li>
     <p>This folder contains basic projects that relate to serial connections</p>
     <ul>
-      <li><a href="">PiNanpy</a></li>
-      <li><a href="">SPI Communication</a></li>
+      <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication/PiNanpy">PiNanpy</a></li>
+      <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication/SPI_Communication">SPI Communication</a></li>
         <ul>
-          <li><a href="">Raspberry Pi SPI</a></li>
-          <li><a href="">Arduino SPI</a></li>
+          <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication/SPI_Communication/RaspberrySPI">Raspberry Pi SPI</a></li>
+          <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication/SPI_Communication/ArduinoSPI">Arduino SPI</a></li>
+          <li><a href="https://github.com/schnelled/PiAndArduino/tree/master/SerialCommunication/SPI_Communication/TwoArduino_MasterSlave">Two Arduinos</a></li>
         </ul>
     </ul>
 </ul>
