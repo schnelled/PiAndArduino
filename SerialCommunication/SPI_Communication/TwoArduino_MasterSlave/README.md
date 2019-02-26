@@ -26,12 +26,15 @@
 <p><strong>Connections/Pins</strong></p>
 <p>Arduino pins 11-13 are used by the SPI library</p>
 <ul>
-  <li>SKC -> Pin13</li>
-  <li>MISO -> Pin12</li>
-  <li>MOSI -> Pin11</li>
-  <li>SS -> Pin10</li>
+  <li><strong>SKC (Serial Clock)</strong> -> Clock pulses to synchronize data transmission (Pin13)</li>
+  <li><strong>MISO (Master In/ Slave Out)</strong> -> The Slave line for sending data to the master (Pin12)</li>
+  <li><strong>MOSI (Master Out/ Slave In)</strong> -> The Master line for sending data to the peripherals (Pin11)</li>
+  <li><strong>SS (Slave Select)</strong> -> Enable & disable specific devices (Pin10)</li>
 </ul>
 
 <h3>Steps:</h3>
 <ol>
+  <li>Wire the circuit as shown below</li>
+  <li>Upload the masterArduino sketch to the master Arduino device</li>
+  <li>Upload the slaveArduino sketch to the slave Arduino device</li>
 </ol>
