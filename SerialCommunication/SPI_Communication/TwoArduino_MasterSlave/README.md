@@ -35,7 +35,7 @@
 <h3>Steps:</h3>
 <ol>
   <li>Wire the circuit as shown below</li>
-  ![ScreenShot](https://github.com/schnelled/PiAndArduino/blob/master/SerialCommunication/SPI_Communication/TwoArduino_MasterSlave/Documents/CircuitLayout.png)
+  <img src="https://github.com/schnelled/PiAndArduino/blob/master/SerialCommunication/SPI_Communication/TwoArduino_MasterSlave/Documents/CircuitLayout.png">
   <li>Upload the masterArduino sketch to the master Arduino device</li>
   <li>Upload the slaveArduino sketch to the slave Arduino device</li>
 </ol>
