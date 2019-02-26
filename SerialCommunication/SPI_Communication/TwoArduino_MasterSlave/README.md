@@ -38,4 +38,5 @@
   <img src="https://github.com/schnelled/PiAndArduino/blob/master/SerialCommunication/SPI_Communication/TwoArduino_MasterSlave/Documents/CircuitLayout.png">
   <li>Upload the masterArduino sketch to the master Arduino device</li>
   <li>Upload the slaveArduino sketch to the slave Arduino device</li>
+  <li>Press either button and observe results</li>
 </ol>
