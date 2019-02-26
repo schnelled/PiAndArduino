@@ -2,6 +2,9 @@
 // Author: schnelled (Dustin Schnelle)
 // Date: 2/22/19
 // Definition: SPI communication between two Arduino
+//
+// MISO "Master In Slave Out"
+// The Slave line for sending data to the master
 
 // Import the SPI library
 #include<SPI.h>
@@ -27,23 +30,25 @@ void setup(void)
  pinMode(LED, OUTPUT);
  pinMode(MISO, OUTPUT);
  
- // Turn on the SPI slave mode
+ // SPCR - "SPI Control Register"
+ // Sets bits to turn on slave mode
  SPCR |= _BV(SPE);
   
  // Set received to false
  received = false;
   
  // Interrupt ON is set for SPI communication
+ // Interrupt (INT0) for Pin2
  SPI.attachInterrupt();
 }
 
 // Function: ISR (Interrupt Function)
 // Input: SPI_STC_vect
 // Output: None
-// Decription: Handle interrupts
+// Decription: Handle interrupts using interrupt vector for ATMega
 ISR(SPI_STC_vect)
 {
- // Set the slave received
+ // Get byte from the SPI Data Register
  slaveReceived = SPDR;
  // Set received to True
  received = true; 
