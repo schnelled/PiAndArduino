@@ -9,6 +9,13 @@
 
 // Define colors
 #define BLACK     0x0000
+#define RED       0xF800
+#define ORANGE    0xFD20
+#define YELLOW    0xFFE0
+#define GREEN     0x0400
+#define BLUE      0x001F
+#define INDIGO    0x4810
+#define VIOLET    0xEC1D
 
 // Initialize 1.44" TFT with ST7735 object
 // Adafruit_ST7735(int8_t cs, int8_t dc, int8_t rst)
@@ -68,6 +75,22 @@ void loop(void) {
   // Black the screen & delay for 1/4 second
   tft.fillScreen(BLACK);
   delay(250);
+  
+  // Loop through the rainbow colors
+  tft.fillScreen(RED);
+  delay(500);
+  tft.fillScreen(ORANGE);
+  delay(500);
+  tft.fillScreen(YELLOW);
+  delay(500);
+  tft.fillScreen(GREEN);
+  delay(500);
+  tft.fillScreen(BLUE);
+  delay(500);
+  tft.fillScreen(INDIGO);
+  delay(500);
+  tft.fillScreen(VIOLET);
+  delay(500);
 }
 
 
